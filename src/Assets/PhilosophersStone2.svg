@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 576 324" style="enable-background:new 0 0 576 324;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#DFDFDF;stroke-width:40;stroke-miterlimit:3;}
+	.st1{fill:none;stroke:url(#SVGID_1_);stroke-width:40;stroke-miterlimit:3;}
+</style>
+<polygon class="st0" points="1205.2,-176 916.7,323.8 1493.7,323.8 "/>
+<rect x="1080.3" y="73.9" class="st0" width="249.9" height="249.9"/>
+<circle class="st0" cx="1205.2" cy="198.4" r="99.3"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-664.4706" y1="699.6677" x2="-664.4706" y2="702.34" gradientTransform="matrix(261.3 0 0 -261.3 174831.4062 183334.3125)">
+	<stop  offset="0" style="stop-color:#BA7DEC"/>
+	<stop  offset="1" style="stop-color:#DFDFDF"/>
+</linearGradient>
+<circle class="st1" cx="1205.2" cy="162" r="360.4"/>
+<text transform="matrix(1 0 0 1 -1915.3313 297.6997)" style="fill:#B97DEC; font-family:'Righteous-Regular'; font-size:381.9716px;">Anima</text>
+<line class="st0" x1="1205.2" y1="323.8" x2="-1893.5" y2="323.8"/>
+</svg>

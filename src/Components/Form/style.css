@@ -60,3 +60,15 @@ textarea {
   border-style: none;
   box-shadow: 3px 3px rgb(93, 62, 119), -3px -3px rgb(208, 173, 236);
 }
+
+.sending {
+  margin-bottom: 1%;
+}
+
+.error {
+  margin-bottom: 1%;
+}
+
+.success {
+  margin-bottom: 1%;
+}

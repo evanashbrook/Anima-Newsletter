@@ -1,11 +1,11 @@
-.b-image {
+.c-image {
   width: 40%;
   height: auto;
   margin-left: 35%;
   margin-top: 0%;
 }
 
-.backbtnb {
+.backbtnc {
   margin: 0%;
   border-radius: 15px;
   background-color: rgba(186, 125, 236, 1);
@@ -19,7 +19,7 @@
   font-size: 1.5vw;
 }
 
-.backbtnb a {
+.backbtnc a {
   color: rgb(58, 47, 70);
   text-decoration: none;
 }

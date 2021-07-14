@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Blog from './Components/Blog';
 import Author from './Components/Author';
 import Home2 from './Components/Home2';
+import Movies from './Components/Movies';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path='/h' component={Home2} />
             <Route path="/blog" exact component={Blog} />
             <Route path="/author" exact component={Author} />
+            <Route path="/movies" exact component={Movies} />
           </div>
       </section>
     </Router>

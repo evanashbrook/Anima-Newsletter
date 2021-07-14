@@ -13,28 +13,33 @@ function Home() {
   let mytitle = useRef(null)
   let mycomp1 = useRef(null)
   let mycomp2 = useRef(null)
+  let mycomp3 = useRef(null)
 
 
     useEffect(() => {
         gsap.from(mytitle, {opacity: 0, delay: 5, duration: 5} );
         gsap.from(mytitle, { duration: 6.5, scrambleText: {chars: "01010101", speed: 1, delimiter: ""}} );
         gsap.from(mycomp1, {opacity: 0, delay: 7, duration: 1, ease: 'circ'} );
-        gsap.from(mycomp2, {opacity: 0, delay: 7.5, duration: 1, ease: 'circ'} );
+        gsap.from(mycomp2, {opacity: 0, delay: 7.25, duration: 1, ease: 'circ'} );
+        gsap.from(mycomp3, {opacity: 0, delay: 7.5, duration: 1, ease: 'circ'} );
     })
   return (
     <section className="home">
       <div className='Main'>
       <p className='home-title' ref={el=>mytitle=el}>
-        Anima
+      <NavLink to='/'>Anima</NavLink>
         </p>
         <div className='home-stone'>
           <MainStone />
         </div>
         <p className='comp1' ref={el=>mycomp1=el}>
-          <NavLink to='/blog'>Newsletter</NavLink>
+        <NavLink to='/blog'>Newsletter</NavLink>
         </p>
         <p className='comp2' ref={el=>mycomp2=el}>
         <NavLink to='/author'>Featured Articles</NavLink>
+        </p>
+        <p className='comp3' ref={el=>mycomp3=el}>
+        <NavLink to='/author'>Weekly Movie Picks</NavLink>
         </p>
       </div>
     </section>

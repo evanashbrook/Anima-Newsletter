@@ -1,0 +1,88 @@
+.home2 {
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+
+.home-title2 {
+  font-family: "Righteous", cursive;
+  font-size: 5vw;
+  /*color: rgb(223, 223, 223);*/
+  color: rgb(186, 125, 236);
+  margin: 0%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+
+  width: 100%;
+  /*text-shadow: -3px 3px 0.75px rgb(155, 129, 163),
+      3px -3px 0.75px rgb(140, 180, 180);*/
+}
+
+.home-title2 a {
+  font-family: "Righteous", cursive;
+  font-size: 5vw;
+  /*color: rgb(223, 223, 223);*/
+  color: rgb(186, 125, 236);
+  text-decoration: none;
+}
+
+.home-stone2 {
+  margin-right: 2%;
+  margin-top: 0%;
+}
+
+.scroller2 {
+  position: absolute;
+  top: 150%;
+  left: 10%;
+}
+
+.Main2 {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  margin-top: 0%;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.Main2 p {
+  text-decoration: none;
+}
+
+.comp12 a {
+  color: rgb(186, 125, 236);
+  text-decoration: underline;
+  text-decoration-color: rgb(223, 223, 223);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: "Righteous", cursive;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.comp12 {
+  margin-top: 0%;
+}
+
+.comp22 a {
+  color: rgb(186, 125, 236);
+  text-decoration: underline;
+  text-decoration-color: rgb(223, 223, 223);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: "Righteous", cursive;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.comp32 a {
+  color: rgb(186, 125, 236);
+  text-decoration: underline;
+  text-decoration-color: rgb(223, 223, 223);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: "Righteous", cursive;
+  font-size: 3vw;
+  text-align: center;
+}

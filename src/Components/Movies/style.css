@@ -1,10 +1,3 @@
-.c-image {
-  width: 40%;
-  height: auto;
-  margin-left: 35%;
-  margin-top: 0%;
-}
-
 .backbtnc {
   margin: 0%;
   border-radius: 15px;
@@ -22,4 +15,190 @@
 .backbtnc a {
   color: rgb(58, 47, 70);
   text-decoration: none;
+}
+
+.movies-title {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  font-size: 5vw;
+  color: rgb(186, 125, 236);
+  margin: 0%;
+}
+
+.week1 {
+  text-align: left;
+  font-family: "Righteous", cursive;
+  font-size: 3vw;
+  color: rgb(186, 125, 236);
+  margin: 0%;
+  margin-left: 16%;
+}
+
+.movie-1 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 1%;
+  position: relative;
+}
+
+.primer-wrap {
+  width: 50%;
+  margin-left: 25%;
+  transition: 0.3s;
+}
+
+.movie-1-list {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+  z-index: 500;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: left;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+  color: rgb(186, 125, 236);
+  background-color: rgb(34, 34, 37);
+  border-radius: 10px;
+  padding: 2% 2%;
+  list-style: none;
+}
+
+.primer {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+  box-shadow: 10px 10px 10px black;
+  z-index: 999;
+}
+
+.primer-wrap:hover {
+  margin-left: 20%;
+}
+
+.primer-wrap:hover .primer {
+  width: 120%;
+  transition: 0.3s;
+  height: auto;
+  z-index: 999;
+}
+
+.primer-wrap:hover .movie-1-list {
+  visibility: visible;
+  right: 5%;
+  opacity: 1;
+}
+
+.movie-2 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 2%;
+  position: relative;
+}
+
+.tenet-wrap {
+  width: 50%;
+  margin-left: 25%;
+  transition: 0.3s;
+}
+
+.movie-2-list {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+  z-index: 500;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: left;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+  color: rgb(186, 125, 236);
+  background-color: rgb(34, 34, 37);
+  border-radius: 10px;
+  padding: 2% 2%;
+  list-style: none;
+}
+
+.tenet {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+  box-shadow: 10px 10px 10px black;
+  z-index: 999;
+}
+
+.tenet-wrap:hover {
+  margin-left: 20%;
+}
+
+.tenet-wrap:hover .tenet {
+  width: 120%;
+  transition: 0.3s;
+  height: auto;
+  z-index: 999;
+}
+
+.tenet-wrap:hover .movie-2-list {
+  visibility: visible;
+  right: 5%;
+  opacity: 1;
+}
+
+.movie-3 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 2%;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.aliencov-wrap {
+  width: 50%;
+  margin-left: 25%;
+  transition: 0.3s;
+}
+
+.movie-3-list {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+  z-index: 500;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: left;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+  color: rgb(186, 125, 236);
+  background-color: rgb(34, 34, 37);
+  border-radius: 10px;
+  padding: 2% 2%;
+  list-style: none;
+}
+
+.aliencov {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+  box-shadow: 10px 10px 10px black;
+  z-index: 999;
+}
+
+.aliencov-wrap:hover {
+  margin-left: 20%;
+}
+
+.aliencov-wrap:hover .aliencov {
+  width: 120%;
+  transition: 0.3s;
+  height: auto;
+  z-index: 999;
+}
+
+.aliencov-wrap:hover .movie-3-list {
+  visibility: visible;
+  right: 5%;
+  opacity: 1;
 }

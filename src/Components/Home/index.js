@@ -39,7 +39,7 @@ function Home() {
         <NavLink to='/author'>Featured Articles</NavLink>
         </p>
         <p className='comp3' ref={el=>mycomp3=el}>
-        <NavLink to='/author'>Weekly Movie Picks</NavLink>
+        <NavLink to='/movies'>Weekly Movie Picks</NavLink>
         </p>
       </div>
     </section>

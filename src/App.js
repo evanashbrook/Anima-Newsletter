@@ -14,9 +14,9 @@ function App() {
         <div className="routes">
             <Route path="/" exact component={Home} />
             <Route path='/h' component={Home2} />
-            <Route path="/blog" exact component={Blog} />
-            <Route path="/author" exact component={Author} />
-            <Route path="/movies" exact component={Movies} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/author" component={Author} />
+            <Route path="/movies" component={Movies} />
           </div>
       </section>
     </Router>

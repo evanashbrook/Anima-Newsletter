@@ -18,3 +18,12 @@ export const textIntro2 = elem => {
         ease: "circ",
     });
 };
+
+export const SVGintro = elem => {
+    gsap.from(elem, {
+        scale: 1.4,
+        opacity: 0,
+        duration: 2,
+        ease: "circ",
+    });
+};

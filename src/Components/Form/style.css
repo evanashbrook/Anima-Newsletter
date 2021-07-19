@@ -1,13 +1,13 @@
 .mailchimp {
   margin: 0%;
   border-radius: 15px;
-  background-color: rgba(186, 125, 236, 1);
+  background-color: rgba(39, 39, 39, 0.8);
   padding: 5% 0%;
   width: 30%;
   margin-left: 35%;
   margin-top: 0%;
   text-align: center;
-  box-shadow: 4px 4px rgb(93, 62, 119), -4px -4px rgb(208, 173, 236);
+  box-shadow: 2px 2px rgba(27, 27, 27, 0.8), -2px -2px rgba(90, 90, 90, 0.8);
 }
 
 .form-title {
@@ -16,7 +16,7 @@
   font-family: "Righteous", cursive;
   font-size: 4vw;
   text-align: center;
-  color: rgb(58, 47, 70);
+  color: rgba(214, 214, 214, 1);
 }
 
 .fform input {
@@ -27,17 +27,13 @@
   font-family: "Righteous", cursive;
   font-size: 2vw;
   text-align: center;
-  background-color: rgb(52, 52, 58);
+  background-color: rgba(52, 52, 58, 0);
   border-style: none;
-  box-shadow: -3px -3px rgb(93, 62, 119), 3px 3px rgb(208, 173, 236);
+  box-shadow: -2px -2px rgba(51, 51, 51, 0.8), 2px 2px rgba(87, 87, 87, 0.8);
 }
 
 .fform input::placeholder {
-  color: rgb(223, 223, 223);
-}
-
-.fform input::placeholder {
-  color: rgb(223, 223, 223);
+  color: rgba(214, 214, 214, 1);
 }
 
 .fform input,
@@ -55,10 +51,10 @@ textarea {
   font-family: "Righteous", cursive;
   font-size: 1.75vw;
   text-align: center;
-  color: rgb(58, 47, 70);
-  background-color: rgba(186, 125, 236, 1);
+  color: rgba(214, 214, 214, 1);
+  background-color: rgba(58, 58, 58, 0);
   border-style: none;
-  box-shadow: 3px 3px rgb(93, 62, 119), -3px -3px rgb(208, 173, 236);
+  box-shadow: 2px 2px rgba(51, 51, 51, 0.8), -2px -2px rgba(107, 107, 107, 0.8);
 }
 
 .sending {

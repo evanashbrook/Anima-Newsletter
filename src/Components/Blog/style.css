@@ -1,24 +1,31 @@
-.blog-form {
-  margin: 0%;
-  width: 100%;
+.a-text {
+  position: relative;
+  z-index: 999;
+}
+
+.Blog-form {
+  position: relative;
+  z-index: 999;
 }
 
 .backbtn {
   margin: 0%;
   border-radius: 15px;
-  background-color: rgba(186, 125, 236, 1);
+  background-color: rgba(39, 39, 39, 0.8);
   padding: 1.5% 1.5%;
   margin-left: 2.5%;
   margin-top: 2.5%;
   width: 10%;
   text-align: center;
-  box-shadow: 2.5px 2.5px rgb(93, 62, 119), -2.5px -2.5px rgb(208, 173, 236);
+  box-shadow: 2px 2px rgba(27, 27, 27, 0.8), -2px -2px rgba(90, 90, 90, 0.8);
   font-family: "Righteous", cursive;
   font-size: 1.5vw;
+  position: relative;
+  z-index: 999;
 }
 
 .backbtn a {
-  color: rgb(58, 47, 70);
+  color: rgba(214, 214, 214, 1);
   text-decoration: none;
 }
 
@@ -27,4 +34,12 @@
   height: auto;
   margin-left: 35%;
   margin-top: 0%;
+}
+
+.sexlines2 {
+  width: 100%;
+  position: absolute;
+  top: -30%;
+  margin-left: 0%;
+  z-index: 900;
 }

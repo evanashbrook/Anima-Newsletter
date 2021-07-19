@@ -4,7 +4,9 @@ import { textIntro, textIntro2 } from '../../Animations'
 import picture2 from '../../Assets/AlienCov.jpeg'
 import picture3 from '../../Assets/Primer.png'
 import picture4 from '../../Assets/Tenet-Poster.jpg'
+import picture5 from '../../Assets/AHX.png'
 import './style.css'
+import gsap from 'gsap/gsap-core'
 
 /**
 * @author
@@ -18,14 +20,16 @@ const Movies = (props) => {
     let movie1 = useRef(null)
     let movie2 = useRef(null)
     let movie3 = useRef(null)
+    let movie4 = useRef(null)
   
     useEffect(() => {
       textIntro(back) 
-      textIntro2(pic)
-      textIntro2(week)
+      gsap.from(pic, {rotateX: "100%", opacity:0, duration:2})
+      gsap.from(week, {rotateX: "100%", opacity:0, duration:2})
       textIntro(movie1)
       textIntro(movie2)
       textIntro(movie3)
+      textIntro(movie4)
     })
     return(
       <section>
@@ -68,6 +72,17 @@ const Movies = (props) => {
               <li>2017</li>
               <li>Sci-Fi / Horror</li>
               <li>Ridley Scott</li>
+          </ul>
+          </div>
+      </div>
+      <div className='movie-4' ref={el=>movie4=el} >
+          <div className='ahx-wrap'>
+          <img src={picture5} className='ahx' alt='ahx-poster' />
+          <ul className='movie-4-list'>
+              <li>American History X</li>
+              <li>1998</li>
+              <li>Crime/Drama</li>
+              <li>Tony Kaye</li>
           </ul>
           </div>
       </div>

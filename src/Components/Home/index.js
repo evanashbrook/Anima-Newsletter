@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/src/ScrollTrigger';
 import { NavLink } from 'react-router-dom'
 import ScrambleText from 'gsap/ScrambleTextPlugin'
+import Concentric from '../../SVGs/Concentric'
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrambleText);
@@ -14,14 +15,15 @@ function Home() {
   let mycomp1 = useRef(null)
   let mycomp2 = useRef(null)
   let mycomp3 = useRef(null)
+  let circles = useRef(null)
 
 
     useEffect(() => {
-        gsap.from(mytitle, {opacity: 0, delay: 5, duration: 5} );
-        gsap.from(mytitle, { duration: 6.5, scrambleText: {chars: "01010101", speed: 1, delimiter: ""}} );
-        gsap.from(mycomp1, {opacity: 0, delay: 7, duration: 1, ease: 'circ'} );
-        gsap.from(mycomp2, {opacity: 0, delay: 7.25, duration: 1, ease: 'circ'} );
-        gsap.from(mycomp3, {opacity: 0, delay: 7.5, duration: 1, ease: 'circ'} );
+        gsap.from(mytitle, {opacity: 0, delay: 5, duration: 2, rotateX: "100%", ease: 'circ'} );
+        gsap.from(mycomp1, {opacity: 0, delay: 5.25, duration: 1, rotateX: "100%", ease: 'circ'} );
+        gsap.from(mycomp2, {opacity: 0, delay: 5.5, duration: 1, rotateX: "100%", ease: 'circ'} );
+        gsap.from(mycomp3, {opacity: 0, delay: 5.75, duration: 1, rotateX: "100%", ease: 'circ'} );
+        gsap.from(circles, {scale: 6, opacity: 0, duration: 5.5})
     })
   return (
     <section className="home">
@@ -41,6 +43,9 @@ function Home() {
         <p className='comp3' ref={el=>mycomp3=el}>
         <NavLink to='/movies'>Weekly Movie Picks</NavLink>
         </p>
+      </div>
+      <div className='concentric' ref={el=>circles=el}>
+          <Concentric/>
       </div>
     </section>
   );

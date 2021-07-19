@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom'
 import ScrambleText from 'gsap/ScrambleTextPlugin'
 import MainStone2 from '../../SVGs/MainStone2';
 import { textIntro, textIntro2 } from '../../Animations';
+import Concentric from '../../SVGs/Concentric';
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrambleText);
@@ -15,6 +16,7 @@ function Home2() {
   let mycomp1 = useRef(null)
   let mycomp2 = useRef(null)
   let mycomp3 = useRef(null)
+  let circles = useRef(null)
 
 
     useEffect(() => {
@@ -22,6 +24,7 @@ function Home2() {
         textIntro(mycomp1)
         textIntro(mycomp2)
         textIntro(mycomp3)
+        textIntro(circles)
     })
   return (
     <section className="home2">
@@ -41,6 +44,9 @@ function Home2() {
         <p className='comp32' ref={el=>mycomp3=el}>
         <NavLink to='/movies'>Weekly Movie Picks</NavLink>
         </p>
+      </div>
+      <div className='concentric2' ref={el=>circles=el}>
+          <Concentric/>
       </div>
     </section>
   );

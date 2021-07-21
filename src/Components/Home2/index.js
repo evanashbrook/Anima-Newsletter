@@ -35,15 +35,17 @@ function Home2() {
         <div className='home-stone2'>
           <MainStone2 />
         </div>
+        <div className='Mainnav2'>
         <p className='comp12' ref={el=>mycomp1=el}>
-          <NavLink to='/blog'>Newsletter</NavLink>
+          <NavLink to='/featured'>Featured Articles</NavLink>
         </p>
         <p className='comp22' ref={el=>mycomp2=el}>
-        <NavLink to='/author'>Featured Articles</NavLink>
+        <NavLink to='/blog'>Newsletter</NavLink>
         </p>
         <p className='comp32' ref={el=>mycomp3=el}>
         <NavLink to='/movies'>Weekly Movie Picks</NavLink>
         </p>
+        </div>
       </div>
       <div className='concentric2' ref={el=>circles=el}>
           <Concentric/>

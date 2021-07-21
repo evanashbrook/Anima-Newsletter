@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 576 324" style="enable-background:new 0 0 576 324;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#DFDFDF;stroke-width:18;stroke-miterlimit:3;}
-	.st1{fill:none;stroke:url(#SVGID_1_);stroke-width:18;stroke-miterlimit:3;}
-</style>
-<polygon class="st0" points="907.5,-21.2 778,203.1 1037,203.1 "/>
-<rect x="851.4" y="91" class="st0" width="112.2" height="112.2"/>
-<circle class="st0" cx="907.5" cy="146.8" r="44.6"/>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-797.105" y1="-239.7311" x2="-797.105" y2="-240.9334" gradientTransform="matrix(261.3 0 0 261.3 209191 62929.3125)">
-	<stop  offset="0" style="stop-color:#BA7DEC"/>
-	<stop  offset="1" style="stop-color:#DFDFDF"/>
-</linearGradient>
-<circle class="st1" cx="907.5" cy="130.5" r="161.8"/>
-<text transform="matrix(1 0 0 1 -493.2536 191.4109)" style="fill:#B97DEC; font-family:'Righteous-Regular'; font-size:171.458px;">Anima</text>
-<line class="st0" x1="907.5" y1="203.1" x2="-483.5" y2="203.1"/>
-</svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	    viewBox="0 0 1920 1080" width='30%' height='30%'>
+            <defs>
+            <linearGradient id="linear2" x1="0%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%"   stop-color="rgb(253, 29, 29)"/>
+                <stop offset="25%"   stop-color="rgb(252, 176, 69)"/>
+                <stop offset="50%"   stop-color="rgb(243, 252, 69)"/>
+                <stop offset="75%"   stop-color="rgb(69, 252, 138)"/>
+                <stop offset="100%"   stop-color="rgb(69, 252, 248)"/>
+                </linearGradient>
+            </defs>
+            <polygon fill="none" stroke="rgb(214, 214, 214)" stroke-width="50" stroke-miterlimit="10" points="1002.5,85 653.8,689 1351.2,689 "/>
+            <rect x="851.5" y="387" stroke="rgb(214, 214, 214)" fill="none" stroke-width="50" stroke-miterlimit="10" width="302" height="302"/>
+            <circle fill="none" stroke='url(#linear2)' stroke-width="50" stroke-miterlimit="10" cx="1002.5" cy="537.5" r="120"/>
+            <circle fill="none"  stroke='rgb(214, 214, 214)' stroke-width="50" stroke-miterlimit="10" cx="1002.5" cy="493.5" r="435.5"/>
+        </svg>

@@ -1,15 +1,22 @@
 .backbtnc {
   margin: 0%;
   border-radius: 15px;
-  background-color: rgba(39, 39, 39, 0.8);
   padding: 1.5% 1.5%;
   margin-left: 2.5%;
   margin-top: 2.5%;
   width: 10%;
   text-align: center;
-  box-shadow: 2px 2px rgba(27, 27, 27, 0.8), -2px -2px rgba(90, 90, 90, 0.8);
+  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
   font-family: "Righteous", cursive;
   font-size: 1.5vw;
+  position: relative;
+  z-index: 999;
 }
 
 .backbtnc a {
@@ -17,12 +24,34 @@
   text-decoration: none;
 }
 
+.c-text {
+  position: relative;
+  z-index: 800;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 20vh;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 15px;
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
+}
+
 .movies-title {
-  text-align: center;
+  width: 100%;
+  padding-left: 2.5%;
   font-family: "Righteous", cursive;
-  font-size: 5vw;
+  font-size: 4vw;
   color: rgba(214, 214, 214, 1);
-  margin: 0%;
+  position: relative;
+  z-index: 800;
 }
 
 .week1 {
@@ -31,6 +60,7 @@
   font-size: 3vw;
   color: rgba(214, 214, 214, 1);
   margin: 0%;
+  margin-top: 2.5%;
   margin-left: 16%;
 }
 
@@ -49,30 +79,36 @@
 
 .movie-1-list {
   position: absolute;
-  right: 30%;
-  top: 5%;
-  z-index: 500;
-  visibility: hidden;
+  right: 25%;
+  top: 0%;
+  z-index: 900;
   opacity: 0;
   transition: 0.3s;
   text-align: left;
   font-family: "Righteous", cursive;
   font-size: 2vw;
   color: rgba(214, 214, 214, 1);
-  background-color: rgba(39, 39, 39, 0.8);
-  box-shadow: 2px 2px rgba(27, 27, 27, 0.8), -2px -2px rgba(90, 90, 90, 0.8);
+  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
   border-radius: 10px;
   padding: 2% 2%;
   list-style: none;
+  background-color: rgb(39, 39, 39);
 }
 
 .primer {
   width: 100%;
   height: auto;
   transition: 0.3s;
-  box-shadow: 10px 10px 10px black;
-  z-index: 999;
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
   border-radius: 15px;
+  position: relative;
+  z-index: 800;
 }
 
 .primer-wrap:hover {
@@ -83,7 +119,6 @@
   width: 120%;
   transition: 0.3s;
   height: auto;
-  z-index: 999;
 }
 
 .primer-wrap:hover .movie-1-list {
@@ -109,7 +144,7 @@
   position: absolute;
   right: 30%;
   top: 5%;
-  z-index: 500;
+  z-index: 900;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s;
@@ -117,18 +152,24 @@
   font-family: "Righteous", cursive;
   font-size: 2vw;
   color: rgba(214, 214, 214, 1);
-  background-color: rgba(39, 39, 39, 0.8);
-  box-shadow: 2px 2px rgba(27, 27, 27, 0.8), -2px -2px rgba(90, 90, 90, 0.8);
+  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
   border-radius: 10px;
   padding: 2% 2%;
   list-style: none;
+  background-color: rgb(39, 39, 39);
 }
 
 .tenet {
   width: 100%;
   height: auto;
   transition: 0.3s;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
   z-index: 999;
   border-radius: 15px;
 }
@@ -168,7 +209,7 @@
   position: absolute;
   right: 30%;
   top: 5%;
-  z-index: 500;
+  z-index: 900;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s;
@@ -176,18 +217,24 @@
   font-family: "Righteous", cursive;
   font-size: 2vw;
   color: rgba(214, 214, 214, 1);
-  background-color: rgba(39, 39, 39, 0.8);
-  box-shadow: 2px 2px rgba(27, 27, 27, 0.8), -2px -2px rgba(90, 90, 90, 0.8);
+  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
   border-radius: 10px;
   padding: 2% 2%;
   list-style: none;
+  background-color: rgb(39, 39, 39);
 }
 
 .aliencov {
   width: 100%;
   height: auto;
   transition: 0.3s;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
   z-index: 999;
   border-radius: 15px;
 }
@@ -227,7 +274,7 @@
   position: absolute;
   right: 30%;
   top: 5%;
-  z-index: 500;
+  z-index: 900;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s;
@@ -235,18 +282,24 @@
   font-family: "Righteous", cursive;
   font-size: 2vw;
   color: rgba(214, 214, 214, 1);
-  background-color: rgba(39, 39, 39, 0.8);
-  box-shadow: 2px 2px rgba(27, 27, 27, 0.8), -2px -2px rgba(90, 90, 90, 0.8);
+  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
   border-radius: 10px;
   padding: 2% 2%;
   list-style: none;
+  background-color: rgb(39, 39, 39);
 }
 
 .ahx {
   width: 100%;
   height: auto;
   transition: 0.3s;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
   z-index: 999;
   border-radius: 15px;
 }

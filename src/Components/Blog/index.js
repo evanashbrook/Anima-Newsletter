@@ -14,12 +14,10 @@ import './style.css'
 const Blog = (props) => {
   let back = useRef(null);
   let card = useRef(null)
-  let sex = useRef(null)
 
   useEffect(() => {
     textIntro(back)
     textIntro(card)
-    SVGintro(sex)
   })
   return(
     <section className='blog-sec'>
@@ -29,7 +27,7 @@ const Blog = (props) => {
       <div className='Blog-form' ref={el=>card=el}>
       <Form/>
       </div>
-      <div className='sexlines2' ref={el=>sex=el}>
+      <div className='sexlines2'>
       <SexLines/>
     </div>
     </section>

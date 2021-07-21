@@ -86,6 +86,8 @@ const Network1 = (props) => {
 <polyline ref={el=>p14=el} points="163.96 445.23 163.98 445.27 163.99 445.23" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
 <polyline ref={el=>p15=el} points="213.64 252.99 213.65 252.94 213.68 252.99" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
 <line ref={el=>l2=el} x1="329.04" y1="466.95" x2="329.06" y2="467" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
+
+<defs>
     <polyline ref={el=>p21=el} points="152.94 6.5 34.56 65.15 187.69 171.58 6.5 185.73 136.63 248.29 215.79 362.53 546.05 319.3 592.8 144.43 466.81 83.61 284.9 65.15 152.94 6.5 187.69 171.58 284.9 65.15 315.88 140.02 466.81 83.61 546.05 319.3 315.88 140.02 187.69 171.58 136.63 248.29 315.88 140.02 215.79 362.53" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
     <line ref={el=>p21=el} x1="152.94" y1="6.5" x2="152.89" y2="6.52" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
     <polyline ref={el=>p22=el} points="34.6 65.13 34.56 65.15 34.6 65.18" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
@@ -104,6 +106,7 @@ const Network1 = (props) => {
     <polyline ref={el=>p35=el} points="136.66 248.25 136.63 248.29 136.67 248.26" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
     <polyline ref={el=>p36=el} points="315.84 140.05 315.88 140.02 315.86 140.07" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
     <line ref={el=>l22=el} x1="215.81" y1="362.48" x2="215.79" y2="362.53" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
+</defs>
 </svg>
     </div>
    )

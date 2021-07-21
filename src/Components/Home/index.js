@@ -12,17 +12,13 @@ gsap.registerPlugin(ScrambleText);
 
 function Home() {
   let mytitle = useRef(null)
-  let mycomp1 = useRef(null)
-  let mycomp2 = useRef(null)
-  let mycomp3 = useRef(null)
+  let mycomp = useRef(null)
   let circles = useRef(null)
 
 
     useEffect(() => {
-        gsap.from(mytitle, {opacity: 0, delay: 5, duration: 2, rotateX: "100%", ease: 'circ'} );
-        gsap.from(mycomp1, {opacity: 0, delay: 5.25, duration: 1, rotateX: "100%", ease: 'circ'} );
-        gsap.from(mycomp2, {opacity: 0, delay: 5.5, duration: 1, rotateX: "100%", ease: 'circ'} );
-        gsap.from(mycomp3, {opacity: 0, delay: 5.75, duration: 1, rotateX: "100%", ease: 'circ'} );
+        gsap.from(mytitle, {opacity: 0, delay: 5.25, duration: 2, rotateX: "100%", ease: 'circ'} );
+        gsap.from(mycomp, {opacity: 0, delay: 5.25, duration: 2, rotateX: "100%", ease: 'circ'} );
         gsap.from(circles, {scale: 6, opacity: 0, duration: 5.5})
     })
   return (
@@ -34,15 +30,17 @@ function Home() {
         <div className='home-stone'>
           <MainStone />
         </div>
-        <p className='comp1' ref={el=>mycomp1=el}>
+        <div className='Mainnav' ref={el=>mycomp=el}>
+        <p className='comp1'>
         <NavLink to='/blog'>Newsletter</NavLink>
         </p>
-        <p className='comp2' ref={el=>mycomp2=el}>
-        <NavLink to='/author'>Featured Articles</NavLink>
+        <p className='comp2'>
+        <NavLink to='/featured'>Featured Articles</NavLink>
         </p>
-        <p className='comp3' ref={el=>mycomp3=el}>
+        <p className='comp3'>
         <NavLink to='/movies'>Weekly Movie Picks</NavLink>
         </p>
+        </div>
       </div>
       <div className='concentric' ref={el=>circles=el}>
           <Concentric/>

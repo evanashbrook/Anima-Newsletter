@@ -1,0 +1,123 @@
+.b-text {
+  position: relative;
+  z-index: 999;
+}
+
+.b-image {
+  width: 40%;
+  height: auto;
+  margin-left: 35%;
+  margin-top: 0%;
+}
+
+.backbtnb {
+  margin: 0%;
+  border-radius: 15px;
+  padding: 1.5% 1.5%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  width: 10%;
+  text-align: center;
+  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
+  font-family: "Righteous", cursive;
+  font-size: 1.5vw;
+  position: relative;
+  z-index: 999;
+}
+
+.backbtnb a {
+  color: rgba(214, 214, 214, 1);
+  text-decoration: none;
+}
+
+.sexlines {
+  width: 100%;
+  position: absolute;
+  top: -30%;
+  margin-left: 0%;
+  z-index: 900;
+}
+
+.block0 {
+  position: relative;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 20vh;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 15px;
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
+  border-top: rgb(241, 101, 101, 1);
+  border-right: rgb(241, 101, 101, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
+}
+
+.block-title {
+  width: 100%;
+  padding-left: 2.5%;
+  font-family: "Righteous", cursive;
+  font-size: 4vw;
+  color: rgba(214, 214, 214, 1);
+}
+
+.blocksection {
+  position: relative;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 50vh;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.block1 {
+  position: relative;
+  z-index: 999;
+  width: 45%;
+  height: 50vh;
+  margin-top: 1%;
+  border-radius: 15px;
+  background-color: rgb(241, 101, 101, 1);
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
+  transition: 0.2s;
+}
+
+.block1:hover {
+  width: 50%;
+  height: 55vh;
+}
+
+.block2 {
+  position: relative;
+  z-index: 999;
+  width: 45%;
+  height: 50vh;
+  margin-top: 1%;
+  border-radius: 15px;
+  background-color: linear-gradient(
+    90deg,
+    rgb(255, 154, 154) 0%,
+    rgb(241, 101, 101, 1) 100%
+  );
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
+  transition: 0.2s;
+}
+
+.block2:hover {
+  width: 50%;
+  height: 55vh;
+}

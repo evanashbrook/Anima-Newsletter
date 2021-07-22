@@ -48,15 +48,20 @@ const Concentric = (props) => {
             <stop offset="0.87" stop-color="#fefefd" stop-opacity="0.02"/>
             <stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
         </defs>
-            <circle ref={el=>c1=el} cx="235.39" cy="235.39" r="132.47" fill="none" stroke="rgb(110, 110, 110)" stroke-miterlimit="10" stroke-width="4" stroke-dasharray="49.54 9.91"/>
-            <circle ref={el=>c2=el} cx="235.39" cy="235.39" r="169.26" fill="none" stroke="rgb(110, 110, 110)" stroke-miterlimit="10" stroke-width="4" stroke-dasharray="49.24 9.85"/>
-            <circle ref={el=>c3=el} cx="235.39" cy="235.39" r="233.39" fill="none" stroke="rgb(110, 110, 110)" stroke-miterlimit="10" stroke-width="4" stroke-dasharray="50.92 10.18"/>
-            <circle ref={el=>c4=el} cx="235.39" cy="235.39" r="224.55" fill="none" stroke="rgb(110, 110, 110)" stroke-miterlimit="10" stroke-width="4"/>
-            <circle ref={el=>c5=el} cx="235.39" cy="235.39" r="153.93" fill="none" stroke="rgb(110, 110, 110)" stroke-miterlimit="10" stroke-width="4"/>
-            <circle ref={el=>c6=el} cx="235.39" cy="235.39" r="120.69" fill="none" stroke="rgb(110, 110, 110)" stroke-miterlimit="10" stroke-width="4"/>
+            <circle ref={el=>c1=el} cx="235.39" cy="235.39" r="132.47" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4" stroke-dasharray="49.54 9.91"/>
+            <circle ref={el=>c2=el} cx="235.39" cy="235.39" r="169.26" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4" stroke-dasharray="49.24 9.85"/>
+            <circle ref={el=>c3=el} cx="235.39" cy="235.39" r="233.39" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4" stroke-dasharray="50.92 10.18"/>
+            <circle ref={el=>c4=el} cx="235.39" cy="235.39" r="224.55" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4"/>
+            <circle ref={el=>c5=el} cx="235.39" cy="235.39" r="153.93" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4"/>
+            <circle ref={el=>c6=el} cx="235.39" cy="235.39" r="120.69" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4"/>
             <circle ref={el=>c7=el} cx="235.39" cy="235.39" r="224.55" fill="url(#radial-gradient)"/>
-            <circle cx="235.39" cy="235.39" r="199.5" fill="none" stroke="#64b5ff" stroke-miterlimit="10" stroke-width="6"/>
-            <circle cx="235.39" cy="235.39" r="199.5" fill="none" stroke="white" stroke-miterlimit="10" stroke-width="2"/>
+            <path d="M221.44,297.64c0-110.18,89.32-199.5,199.5-199.5" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M420.94,497.14c-110.18,0-199.5-89.32-199.5-199.5" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M620.44,297.64c0,110.18-89.31,199.5-199.5,199.5" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M162,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M145.92,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M564.67,297.64A143.73,143.73,0,0,0,420.94,153.91" transform="translate(-185 -62.5)" fill="none" stroke="#82c781" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M420.94,441.37A143.73,143.73,0,0,0,564.67,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#82c781" stroke-miterlimit="10" stroke-width="4"/>
         </svg>
     </div>
    )

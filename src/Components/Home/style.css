@@ -10,7 +10,7 @@
   color: rgb(186, 125, 236);
   margin: 0%;
   margin-top: 2.5%;
-  margin-bottom: 10%;
+  margin-bottom: 2.5%;
   text-align: left;
   margin-left: 7%;
 
@@ -39,8 +39,10 @@
 }
 
 .home-stone {
-  margin-right: 2.5%;
-  margin-top: 0%;
+  position: absolute;
+  top: 32.5%;
+  left: -1%;
+  width: 100%;
 }
 
 .scroller {
@@ -65,10 +67,13 @@
 }
 
 .Mainnav {
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 7.5%;
+  border-radius: 15px;
+  align-items: center;
+  /*margin-top: 15%;
   margin-left: 7.5%;
   margin-right: 7.5%;
   border-top: rgb(241, 101, 101, 1);
@@ -78,7 +83,7 @@
   border-left: none;
   border-bottom: none;
   border-radius: 15px;
-  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);*/
 }
 
 .comp1 {
@@ -106,12 +111,12 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-  color: rgba(214, 214, 214, 1);
+  color: rgb(122, 122, 122);
   text-decoration: none;
   margin-top: 0%;
   margin-bottom: 0%;
   font-family: "Righteous", cursive;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 
@@ -128,12 +133,12 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-  color: rgba(214, 214, 214, 1);
+  color: rgb(122, 122, 122);
   text-decoration: none;
   margin-top: 0%;
   margin-bottom: 0%;
   font-family: "Righteous", cursive;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 
@@ -150,12 +155,12 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-  color: rgba(214, 214, 214, 1);
+  color: rgb(122, 122, 122);
   text-decoration: none;
   margin-top: 0%;
   margin-bottom: 0%;
   font-family: "Righteous", cursive;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 

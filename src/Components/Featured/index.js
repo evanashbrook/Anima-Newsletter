@@ -33,10 +33,16 @@ const Featured = (props) => {
     </div>
     <div className='blocksection'>
       <div className='block1' ref={el=>blockone=el}>
-      <p className='block-title'>Featured Content</p>
+        <NavLink to='/featured/premium'>
+        <p className='block-title1'>[American History X]</p>
+          <p className='block-title1'>Race, Consciousness and Human Nature</p>
+          </NavLink>
       </div>
       <div className='block2' ref={el=>blocktwo=el}>
-      <p className='block-title'>Featured Content</p>
+      <NavLink to='/featured/public'>
+      <p className='block-title2'>[Alien: Covenant]</p>
+          <p className='block-title2'>"If You Created Me, Who Created You?"</p>
+          </NavLink>
       </div>
     </div>
     <div className='sexlines'>

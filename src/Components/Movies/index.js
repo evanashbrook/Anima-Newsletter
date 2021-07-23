@@ -7,6 +7,7 @@ import picture4 from '../../Assets/Tenet-Poster.jpg'
 import picture5 from '../../Assets/AHX.png'
 import './style.css'
 import gsap from 'gsap/gsap-core'
+import SexLines from '../../SVGs/SexLines'
 
 /**
 * @author
@@ -86,6 +87,9 @@ const Movies = (props) => {
           </ul>
           </div>
       </div>
+      <div className='sexlines3'>
+      <SexLines/>
+    </div>
     </section>
      )
   

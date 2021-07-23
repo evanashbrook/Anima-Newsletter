@@ -5,7 +5,7 @@ import Home from './Components/Home';
 import Blog from './Components/Blog';
 import Home2 from './Components/Home2';
 import Movies from './Components/Movies';
-import Featured from './Components/Featured';
+import FeaturedRouter from './Components/FeaturedRouter';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path='/h' component={Home2} />
             <Route path="/blog" component={Blog} />
-            <Route path="/featured" component={Featured} />
+            <Route path="/featured" component={FeaturedRouter} />
             <Route path="/movies" component={Movies} />
           </div>
       </section>

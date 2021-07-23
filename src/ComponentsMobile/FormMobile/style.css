@@ -1,9 +1,9 @@
-.mailchimp {
+.mailchimp-m {
   margin: 0%;
   border-radius: 15px;
   padding: 5% 0%;
-  width: 30%;
-  margin-left: 35%;
+  width: 90%;
+  margin-left: 5%;
   margin-top: 0%;
   text-align: center;
   box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
@@ -15,60 +15,60 @@
   border-bottom: none;
 }
 
-.form-title {
+.form-title-m {
   margin: 0%;
   padding-bottom: 15%;
   font-family: "Righteous", cursive;
-  font-size: 4vw;
+  font-size: 4vh;
   text-align: center;
   color: rgba(214, 214, 214, 1);
 }
 
-.fform input {
+.fform-m input {
   border-radius: 15px;
   padding-top: 2%;
   padding-bottom: 2%;
   width: 55%;
   font-family: "Righteous", cursive;
-  font-size: 2vw;
+  font-size: 2vh;
   text-align: center;
   background-color: rgba(52, 52, 58, 0);
   border-style: none;
   box-shadow: 2px 2px #9c9c9cb2;
 }
 
-.fform input::placeholder {
+.fform-m input::placeholder {
   color: rgba(214, 214, 214, 1);
 }
 
-.fform input,
+.fform-m input,
 select,
 textarea {
   color: rgb(223, 223, 223);
 }
 
-.fform button {
+.fform-m button {
   margin-left: 5%;
   border-radius: 15px;
   padding-top: 2%;
   padding-bottom: 2%;
   width: 30%;
   font-family: "Righteous", cursive;
-  font-size: 1.75vw;
+  font-size: 1.75vh;
   text-align: center;
   color: rgba(214, 214, 214, 1);
   background-color: #9c9c9c;
   border-style: none;
 }
 
-.sending {
+.sending-m {
   margin-bottom: 1%;
 }
 
-.error {
+.error-m {
   margin-bottom: 1%;
 }
 
-.success {
+.success-m {
   margin-bottom: 1%;
 }

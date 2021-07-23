@@ -55,13 +55,15 @@ const Concentric = (props) => {
             <circle ref={el=>c5=el} cx="235.39" cy="235.39" r="153.93" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4"/>
             <circle ref={el=>c6=el} cx="235.39" cy="235.39" r="120.69" fill="none" stroke="rgba(110, 110, 110, .75)" stroke-miterlimit="10" stroke-width="4"/>
             <circle ref={el=>c7=el} cx="235.39" cy="235.39" r="224.55" fill="url(#radial-gradient)"/>
-            <path d="M221.44,297.64c0-110.18,89.32-199.5,199.5-199.5" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
-<path d="M420.94,497.14c-110.18,0-199.5-89.32-199.5-199.5" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
-<path d="M620.44,297.64c0,110.18-89.31,199.5-199.5,199.5" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
-<path d="M162,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
-<path d="M145.92,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#75b1e0" stroke-miterlimit="10" stroke-width="4"/>
-<path d="M564.67,297.64A143.73,143.73,0,0,0,420.94,153.91" transform="translate(-185 -62.5)" fill="none" stroke="#82c781" stroke-miterlimit="10" stroke-width="4"/>
-<path d="M420.94,441.37A143.73,143.73,0,0,0,564.67,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#82c781" stroke-miterlimit="10" stroke-width="4"/>
+            <path d="M221.44,297.64c0-110.18,89.32-199.5,199.5-199.5" transform="translate(-185 -62.5)" fill="none" stroke="#9c9c9c" stroke-miterlimit="10" stroke-width="4" strokeLinecap='round'/>
+<path d="M420.94,497.14c-110.18,0-199.5-89.32-199.5-199.5" transform="translate(-185 -62.5)" fill="none" stroke="#9c9c9c" stroke-miterlimit="10" stroke-width="4" strokeLinecap='round'/>
+<path d="M620.44,297.64c0,110.18-89.31,199.5-199.5,199.5" transform="translate(-185 -62.5)" fill="none" stroke="#9c9c9c" stroke-miterlimit="10" stroke-width="4" strokeLinecap='round'/>
+<path d="M162,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#9c9c9c" stroke-miterlimit="10" stroke-width="4" strokeLinecap='round'/>
+<path d="M145.92,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#9c9c9c" stroke-miterlimit="10" stroke-width="4" strokeLinecap='round'/>
+
+<path d="M564.67,297.64A143.73,143.73,0,0,0,420.94,153.91" transform="translate(-185 -62.5)" fill="none" stroke="#9c9c9c" stroke-miterlimit="10" stroke-width="4" strokeLinecap='round'/>
+<path d="M420.94,441.37A143.73,143.73,0,0,0,564.67,297.64" transform="translate(-185 -62.5)" fill="none" stroke="#9c9c9c" stroke-miterlimit="10" stroke-width="4" strokeLinecap='round'/>
+
         </svg>
     </div>
    )

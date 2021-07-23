@@ -1,4 +1,4 @@
-.backbtnc {
+.backbtnc-m {
   margin: 0%;
   border-radius: 15px;
   padding: 1.5% 1.5%;
@@ -19,19 +19,19 @@
   z-index: 999;
 }
 
-.backbtnc a {
+.backbtnc-m a {
   color: rgba(214, 214, 214, 1);
   text-decoration: none;
 }
 
-.c-text {
+.c-text-m {
   position: relative;
   z-index: 950;
   display: flex;
   justify-content: space-evenly;
   width: 90vw;
-  height: 20vh;
-  margin-top: 1%;
+  height: 30vw;
+  margin-top: 10%;
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 15px;
@@ -44,49 +44,51 @@
   border-bottom: none;
 }
 
-.movies-title {
+.movies-title-m {
   width: 100%;
   padding-left: 2.5%;
   font-family: "Righteous", cursive;
-  font-size: 4vw;
+  font-size: 4vh;
   color: rgba(214, 214, 214, 1);
   position: relative;
   z-index: 950;
 }
 
-.c-subtext {
+.c-subtext-m {
   position: relative;
   z-index: 950;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
-.week1 {
+.week1-m {
   text-align: left;
   font-family: "Righteous", cursive;
-  font-size: 3vw;
+  font-size: 3vh;
   color: rgba(214, 214, 214, 1);
   margin: 0%;
-  margin-top: 2.5%;
   margin-left: 16%;
   position: relative;
   z-index: 950;
 }
 
-.movie-1 {
+.movie-1-m {
   text-align: center;
   justify-content: center;
-  margin-top: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   position: relative;
   position: relative;
   z-index: 999;
 }
 
-.primer-wrap {
+.primer-wrap-m {
   width: 50%;
   margin-left: 25%;
   transition: 0.3s;
 }
 
-.movie-1-list {
+.movie-1-list-m {
   position: absolute;
   right: 25%;
   top: 0%;
@@ -110,7 +112,7 @@
   background-color: rgb(39, 39, 39);
 }
 
-.primer {
+.primer-m {
   width: 100%;
   height: auto;
   transition: 0.3s;
@@ -126,38 +128,39 @@
   border-bottom: none;
 }
 
-.primer-wrap:hover {
+.primer-wrap-m:hover {
   margin-left: 20%;
 }
 
-.primer-wrap:hover .primer {
+.primer-wrap-m:hover .primer-m {
   width: 120%;
   transition: 0.3s;
   height: auto;
 }
 
-.primer-wrap:hover .movie-1-list {
+.primer-wrap-m:hover .movie-1-list-m {
   visibility: visible;
   right: 5%;
   opacity: 1;
 }
 
-.movie-2 {
+.movie-2-m {
   text-align: center;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   position: relative;
   position: relative;
   z-index: 999;
 }
 
-.tenet-wrap {
+.tenet-wrap-m {
   width: 50%;
   margin-left: 25%;
   transition: 0.3s;
 }
 
-.movie-2-list {
+.movie-2-list-m {
   position: absolute;
   right: 30%;
   top: 5%;
@@ -182,7 +185,7 @@
   background-color: rgb(39, 39, 39);
 }
 
-.tenet {
+.tenet-m {
   width: 100%;
   height: auto;
   transition: 0.3s;
@@ -197,113 +200,113 @@
   border-bottom: none;
 }
 
-.tenet-wrap:hover {
+.tenet-wrap-m:hover {
   margin-left: 20%;
 }
 
-.tenet-wrap:hover .tenet {
+.tenet-wrap-m:hover .tenet-m {
   width: 120%;
   transition: 0.3s;
   height: auto;
   z-index: 999;
 }
 
-.tenet-wrap:hover .movie-2-list {
+.tenet-wrap-m:hover .movie-2-list-m {
   visibility: visible;
   right: 5%;
   opacity: 1;
 }
 
-.movie-3 {
+.movie-3-m {
   text-align: center;
   justify-content: center;
-  margin-top: 2%;
-  position: relative;
-  margin-bottom: 2.5%;
-  position: relative;
-  z-index: 999;
-}
-
-.aliencov-wrap {
-  width: 50%;
-  margin-left: 25%;
-  transition: 0.3s;
-}
-
-.movie-3-list {
-  position: absolute;
-  right: 30%;
-  top: 5%;
-  z-index: 900;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.3s;
-  text-align: left;
-  font-family: "Righteous", cursive;
-  font-size: 2vw;
-  color: rgba(214, 214, 214, 1);
-  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
-  border-top: #9c9c9c;
-  border-right: #9c9c9c;
-  border-width: 2px;
-  border-style: solid;
-  border-left: none;
-  border-bottom: none;
-  border-radius: 10px;
-  padding: 2% 2%;
-  list-style: none;
-  background-color: rgb(39, 39, 39);
-}
-
-.aliencov {
-  width: 100%;
-  height: auto;
-  transition: 0.3s;
-  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
-  z-index: 999;
-  border-radius: 15px;
-  border-top: #9c9c9c;
-  border-right: #9c9c9c;
-  border-width: 2px;
-  border-style: solid;
-  border-left: none;
-  border-bottom: none;
-}
-
-.aliencov-wrap:hover {
-  margin-left: 20%;
-}
-
-.aliencov-wrap:hover .aliencov {
-  width: 120%;
-  transition: 0.3s;
-  height: auto;
-  z-index: 999;
-}
-
-.aliencov-wrap:hover .movie-3-list {
-  visibility: visible;
-  right: 5%;
-  opacity: 1;
-}
-
-.movie-4 {
-  text-align: center;
-  justify-content: center;
-  margin-top: 2%;
+  margin-top: 5%;
   position: relative;
   margin-bottom: 5%;
   position: relative;
   z-index: 999;
 }
 
-.ahx-wrap {
+.aliencov-wrap-m {
   width: 50%;
   margin-left: 25%;
   transition: 0.3s;
 }
 
-.movie-4-list {
+.movie-3-list-m {
+  position: absolute;
+  right: 30%;
+  top: 5%;
+  z-index: 900;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: left;
+  font-family: "Righteous", cursive;
+  font-size: 2vw;
+  color: rgba(214, 214, 214, 1);
+  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
+  border-top: #9c9c9c;
+  border-right: #9c9c9c;
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 10px;
+  padding: 2% 2%;
+  list-style: none;
+  background-color: rgb(39, 39, 39);
+}
+
+.aliencov-m {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+  box-shadow: 20px 20px rgba(31, 31, 31, 0.8);
+  z-index: 999;
+  border-radius: 15px;
+  border-top: #9c9c9c;
+  border-right: #9c9c9c;
+  border-width: 2px;
+  border-style: solid;
+  border-left: none;
+  border-bottom: none;
+}
+
+.aliencov-wrap-m:hover {
+  margin-left: 20%;
+}
+
+.aliencov-wrap-m:hover .aliencov-m {
+  width: 120%;
+  transition: 0.3s;
+  height: auto;
+  z-index: 999;
+}
+
+.aliencov-wrap-m:hover .movie-3-list-m {
+  visibility: visible;
+  right: 5%;
+  opacity: 1;
+}
+
+.movie-4-m {
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+  position: relative;
+  margin-bottom: 5%;
+  position: relative;
+  z-index: 999;
+}
+
+.ahx-wrap-m {
+  width: 50%;
+  margin-left: 25%;
+  transition: 0.3s;
+}
+
+.movie-4-list-m {
   position: absolute;
   right: 30%;
   top: 5%;
@@ -328,7 +331,7 @@
   background-color: rgb(39, 39, 39);
 }
 
-.ahx {
+.ahx-m {
   width: 100%;
   height: auto;
   transition: 0.3s;
@@ -344,23 +347,23 @@
   border-bottom: none;
 }
 
-.ahx-wrap:hover {
+.ahx-wrap-m:hover {
   margin-left: 20%;
 }
 
-.ahx-wrap:hover .ahx {
+.ahx-wrap-m:hover .ahx-m {
   width: 120%;
   transition: 0.3s;
   height: auto;
 }
 
-.ahx-wrap:hover .movie-4-list {
+.ahx-wrap-m:hover .movie-4-list-m {
   visibility: visible;
   right: 5%;
   opacity: 1;
 }
 
-.sexlines3 {
+.sexlines3-m {
   width: 100%;
   position: absolute;
   top: -30%;

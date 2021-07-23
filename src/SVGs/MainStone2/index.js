@@ -37,10 +37,10 @@ const MainStone2 = (props) => {
                 <stop offset="100%"   stop-color="rgba(69, 252, 248, 1)"/>
                 </linearGradient>
             </defs>
-            <polygon fill="none" stroke='rgba(214, 214, 214, 1)' stroke-width="50" stroke-miterlimit="10" points="1002.5,85 653.8,689 1351.2,689 "/>
-            <rect x="851.5" y="387" stroke="rgba(214, 214, 214, 1)" fill="none" stroke-width="50" stroke-miterlimit="10" width="302" height="302"/>
+            <polygon fill="none" stroke="rgb(80, 80, 80)" stroke-width="50" stroke-miterlimit="10" points="1002.5,85 653.8,689 1351.2,689 "/>
+            <rect x="851.5" y="387" stroke="rgb(80, 80, 80)" fill="none" stroke-width="50" stroke-miterlimit="10" width="302" height="302"/>
             <circle fill="none" stroke='url(#linear2)' stroke-width="50" stroke-miterlimit="10" cx="1002.5" cy="537.5" r="120"/>
-            <circle fill="none"  stroke='rgba(214, 214, 214, 1)' stroke-width="50" stroke-miterlimit="10" cx="1002.5" cy="493.5" r="435.5"/>
+            <circle fill="none"  stroke="rgb(80, 80, 80)" stroke-width="50" stroke-miterlimit="10" cx="1002.5" cy="493.5" r="435.5"/>
         </svg>
     </div>
    )

@@ -1,20 +1,22 @@
-.a-text {
+.a-text-m {
   position: relative;
   z-index: 999;
 }
 
-.Blog-form {
+.Blog-form-m {
   position: relative;
   z-index: 999;
+  margin-top: 50%;
+  width: 100%;
 }
 
-.backbtn {
+.backbtn-m {
   margin: 0%;
   border-radius: 15px;
   padding: 1.5% 1.5%;
   margin-left: 2.5%;
   margin-top: 2.5%;
-  width: 10%;
+  width: 25%;
   text-align: center;
   box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
   border-top: #9c9c9c;
@@ -24,27 +26,27 @@
   border-left: none;
   border-bottom: none;
   font-family: "Righteous", cursive;
-  font-size: 1.5vw;
+  font-size: 1.75vh;
   position: relative;
   z-index: 999;
 }
 
-.backbtn a {
+.backbtn-m a {
   color: rgba(214, 214, 214, 1);
   text-decoration: none;
 }
 
-.a-image {
+.a-image-m {
   width: 35%;
   height: auto;
   margin-left: 35%;
   margin-top: 0%;
 }
 
-.sexlines2 {
+.sexlines2-m {
   width: 100%;
   position: absolute;
-  top: -30%;
+  top: 20%;
   margin-left: 0%;
   z-index: 900;
 }

@@ -4,7 +4,7 @@
   padding: 1.5% 1.5%;
   margin-left: 2.5%;
   margin-top: 2.5%;
-  width: 10%;
+  width: 25%;
   text-align: center;
   box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
   border-top: #9c9c9c;
@@ -14,7 +14,7 @@
   border-left: none;
   border-bottom: none;
   font-family: "Righteous", cursive;
-  font-size: 1.5vw;
+  font-size: 1.5vh;
   position: relative;
   z-index: 999;
 }

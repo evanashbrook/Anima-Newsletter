@@ -7,6 +7,7 @@ import ScrambleText from 'gsap/ScrambleTextPlugin'
 import MainStone2 from '../../SVGs/MainStone2';
 import { textIntro, textIntro2 } from '../../Animations';
 import Concentric from '../../SVGs/Concentric';
+import Concentric22 from '../../SVGs/Concentric22';
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrambleText);
@@ -32,9 +33,6 @@ function HomeMobile2() {
       <p className='home-title2-m' ref={el=>mytitle=el}>
         <NavLink to='/'>Anima</NavLink>
         </p>
-        <div className='home-stone2-m'>
-          <MainStone2 />
-        </div>
         <div className='Mainnav2-m'>
         <p className='comp12-m' ref={el=>mycomp1=el}>
           <NavLink to='/featured'>Featured Articles</NavLink>
@@ -48,7 +46,7 @@ function HomeMobile2() {
         </div>
       </div>
       <div className='concentric2-m' ref={el=>circles=el}>
-          <Concentric/>
+          <Concentric22/>
       </div>
     </section>
   );

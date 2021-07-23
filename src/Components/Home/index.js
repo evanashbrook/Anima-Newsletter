@@ -6,6 +6,7 @@ import ScrollTrigger from 'gsap/src/ScrollTrigger';
 import { NavLink } from 'react-router-dom'
 import ScrambleText from 'gsap/ScrambleTextPlugin'
 import Concentric from '../../SVGs/Concentric'
+import Concentric2 from '../../SVGs/Concentric2';
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrambleText);
@@ -31,9 +32,6 @@ function Home() {
       <p className='home-title' ref={el=>mytitle=el}>
       <NavLink to='/'>Anima</NavLink>
         </p>
-        <div className='home-stone'>
-          <MainStone />
-        </div>
         <div className='Mainnav'>
         <p className='comp1' ref={el=>mycomp1=el}>
         <NavLink to='/featured'>Featured Articles</NavLink>
@@ -47,7 +45,7 @@ function Home() {
         </div>
       </div>
       <div className='concentric' ref={el=>circles=el}>
-          <Concentric/>
+          <Concentric2/>
       </div>
     </section>
   );

@@ -26,7 +26,6 @@ const NewHome = (props) => {
      <div className='orbit'>
          <Planets />
      </div>
-     <MyMapWithAutocomplete />
    </section>
    )
 

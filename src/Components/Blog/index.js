@@ -12,24 +12,16 @@ import './style.css'
 **/
 
 const Blog = (props) => {
-  let back = useRef(null);
   let card = useRef(null)
 
   useEffect(() => {
-    textIntro(back)
     textIntro(card)
   })
   return(
     <section className='blog-sec'>
-      <div className='backbtn' ref={el=>back=el}>
-        <NavLink to='/h'>Back 2 Home</NavLink>
-      </div>
       <div className='Blog-form' ref={el=>card=el}>
       <Form/>
       </div>
-      <div className='sexlines2'>
-      <SexLines/>
-    </div>
     </section>
    )
 

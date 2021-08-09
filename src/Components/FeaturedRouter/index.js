@@ -5,6 +5,7 @@ import Premium from '../Premium';
 import Public from '../Public';
 import { useMediaQuery } from 'react-responsive';
 import FeaturedMobile from '../../ComponentsMobile/FeaturedMobile';
+import MyMapWithAutocomplete from '../GMap';
 
 /**
 * @author
@@ -12,20 +13,13 @@ import FeaturedMobile from '../../ComponentsMobile/FeaturedMobile';
 **/
 
 const FeaturedRouter = (props) => {
-    const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  const isLandscape = useMediaQuery({ query: '(orientation: landscape)' })
   return(
     <section>
-       {isLandscape && <div className='Froutes'>
-        <Route path="/featured" exact component={Featured} />
-          <Route path="/featured/premium" component={Premium} />
-          <Route path="/featured/public" component={Public} />
-        </div>}
-        {isPortrait && <div className='Froutes-m'>
-        <Route path="/featured" exact component={FeaturedMobile} />
-          <Route path="/featured/premium" component={Premium} />
-          <Route path="/featured/public" component={Public} />
-        </div>}
+       <div className='Froutes'>
+        <Route path="/blog" exact component={Featured} />
+          <Route path="/blog/premium" component={Premium} />
+          <Route path="/blog/public" component={Public} />
+        </div>
     </section>
    )
 

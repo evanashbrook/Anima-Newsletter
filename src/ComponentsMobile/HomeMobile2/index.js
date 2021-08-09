@@ -35,13 +35,13 @@ function HomeMobile2() {
         </p>
         <div className='Mainnav2-m'>
         <p className='comp12-m' ref={el=>mycomp1=el}>
-          <NavLink to='/featured'>Featured Articles</NavLink>
+          <NavLink to='/blog'>Blog</NavLink>
         </p>
         <p className='comp22-m' ref={el=>mycomp2=el}>
-        <NavLink to='/blog'>Newsletter</NavLink>
+        <NavLink to='/catalog'>Catalog</NavLink>
         </p>
         <p className='comp32-m' ref={el=>mycomp3=el}>
-        <NavLink to='/movies'>Weekly Movie Picks</NavLink>
+        <NavLink to='/movies'>Movies</NavLink>
         </p>
         </div>
       </div>

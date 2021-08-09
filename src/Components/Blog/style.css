@@ -8,32 +8,6 @@
   z-index: 999;
 }
 
-.backbtn {
-  margin: 0%;
-  border-radius: 15px;
-  padding: 1.5% 1.5%;
-  margin-left: 2.5%;
-  margin-top: 2.5%;
-  width: 10%;
-  text-align: center;
-  box-shadow: 10px 10px rgba(31, 31, 31, 0.8);
-  border-top: #9c9c9c;
-  border-right: #9c9c9c;
-  border-width: 2px;
-  border-style: solid;
-  border-left: none;
-  border-bottom: none;
-  font-family: "Righteous", cursive;
-  font-size: 1.5vw;
-  position: relative;
-  z-index: 999;
-}
-
-.backbtn a {
-  color: rgba(214, 214, 214, 1);
-  text-decoration: none;
-}
-
 .a-image {
   width: 35%;
   height: auto;

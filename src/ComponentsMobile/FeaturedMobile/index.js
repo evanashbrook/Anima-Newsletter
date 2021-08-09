@@ -33,13 +33,13 @@ const FeaturedMobile = (props) => {
     </div>
     <div className='blocksection-m'>
       <div className='block1-m' ref={el=>blockone=el}>
-        <NavLink to='/featured/premium'>
+        <NavLink to='/blog/premium'>
         <p className='block-title1-m'>[American History X]</p>
           <p className='block-title1-m'>Race, Consciousness and Human Nature</p>
           </NavLink>
       </div>
       <div className='block2-m' ref={el=>blocktwo=el}>
-      <NavLink to='/featured/public'>
+      <NavLink to='/blog/public'>
       <p className='block-title2-m'>[Alien: Covenant]</p>
           <p className='block-title2-m'>"If You Created Me, Who Created You?"</p>
           </NavLink>

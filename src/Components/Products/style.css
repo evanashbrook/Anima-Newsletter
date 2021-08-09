@@ -1,0 +1,114 @@
+.comingsoon {
+  text-align: center;
+}
+
+.comingsoon p {
+  font-family: "Inter", sans-serif;
+  font-size: 20pt;
+  color: #f390a1;
+}
+
+.productrow {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+.prod0 {
+  width: 35%;
+  text-decoration: none;
+}
+
+.prod0 a {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  font-size: 1vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.prod0 img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.prod0 img:hover {
+  transform: scale(1.5);
+}
+
+.prod1 {
+  width: 35%;
+}
+
+.prod1 a {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  font-size: 1vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.prod1 img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.prod1 img:hover {
+  transform: scale(1.5);
+}
+
+.productrow2 {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-top: 0%;
+  margin-bottom: 20%;
+}
+
+.prod2 {
+  width: 35%;
+  text-decoration: none;
+}
+
+.prod2 a {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  font-size: 1vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.prod2 img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.prod2 img:hover {
+  transform: scale(1.5);
+}
+
+.prod3 {
+  width: 35%;
+}
+
+.prod3 a {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  font-size: 1vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.prod3 img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.prod3 img:hover {
+  transform: scale(1.5);
+}
+
+.ids {
+  margin-bottom: 15%;
+}

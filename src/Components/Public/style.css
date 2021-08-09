@@ -1,0 +1,45 @@
+.article1 {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  font-family: "Inter", sans-serif;
+}
+
+.article-title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 27.5pt;
+  color: #f390a1;
+  font-weight: bolder;
+}
+
+.article-author {
+  margin-bottom: 5%;
+  font-size: 2vw;
+  color: #bbbbbb;
+  font-weight: bolder;
+  font-size: 15pt;
+  text-align: right;
+  width: 75%;
+}
+
+.article-published {
+  color: #bbbbbb;
+  font-weight: bolder;
+  font-size: 10pt;
+  text-align: right;
+}
+
+.article-edited {
+  color: #bbbbbb;
+  font-weight: bolder;
+  font-size: 10pt;
+  margin-bottom: 5%;
+  text-align: right;
+}
+
+.article-content {
+  font-size: 17.5pt;
+  color: #796b7c;
+}

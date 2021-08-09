@@ -15,7 +15,6 @@ import SexLines from '../../SVGs/SexLines'
 **/
 
 const MoviesMobile = (props) => {
-    let back = useRef(null);
     let pic = useRef(null)
     let week = useRef(null)
     let movie1 = useRef(null)
@@ -23,8 +22,7 @@ const MoviesMobile = (props) => {
     let movie3 = useRef(null)
     let movie4 = useRef(null)
   
-    useEffect(() => {
-      textIntro(back) 
+    useEffect(() => { 
       gsap.from(pic, {rotateX: "100%", opacity:0, duration:2})
       gsap.from(week, {rotateX: "100%", opacity:0, duration:2})
       textIntro(movie1)
@@ -34,9 +32,6 @@ const MoviesMobile = (props) => {
     })
     return(
       <section>
-      <div className='backbtnc-m' ref={el=>back=el}>
-        <NavLink to='/h'>Back 2 Home</NavLink>
-      </div>
       <div className='c-text-m' ref={el=>pic=el}>
         <p className='movies-title-m'>Anima Movie Picks</p>
       </div>
@@ -87,9 +82,6 @@ const MoviesMobile = (props) => {
           </ul>
           </div>
       </div>
-      <div className='sexlines3-m'>
-      <SexLines/>
-    </div>
     </section>
      )
   

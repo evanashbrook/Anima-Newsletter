@@ -34,13 +34,13 @@ function Home() {
         </p>
         <div className='Mainnav'>
         <p className='comp1' ref={el=>mycomp1=el}>
-        <NavLink to='/featured'>Featured Articles</NavLink>
+        <NavLink to='/blog'>Blog</NavLink>
         </p>
         <p className='comp2' ref={el=>mycomp2=el}>
-        <NavLink to='/blog'>Newsletter</NavLink>
+        <NavLink to='/catalog'>Catalog</NavLink>
         </p>
         <p className='comp3' ref={el=>mycomp3=el}>
-        <NavLink to='/movies'>Weekly Movie Picks</NavLink>
+        <NavLink to='/movies'>Movies</NavLink>
         </p>
         </div>
       </div>

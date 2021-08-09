@@ -29,7 +29,7 @@ export default class Premium extends Component {
   }
 
   componentDidMount() {
-    instancetwo.get('http://localhost:1337/articles/2')
+    instancetwo.get('http://backendstrapiblog.herokuapp.com/articles/2')
     .then(res => {
       this.setState({
         Title: res.data.Title,

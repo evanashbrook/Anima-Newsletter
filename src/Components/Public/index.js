@@ -28,7 +28,7 @@ export default class Public extends Component {
   }
 
   componentDidMount() {
-    instancetwo.get('http://localhost:1337/articles/1')
+    instancetwo.get('http://backendstrapiblog.herokuapp.com/articles/1')
     .then(res => {
       this.setState({
         Title: res.data.Title,

@@ -95,26 +95,29 @@ body {
 }
 
 .homeButt {
-  width: 52%;
-  margin-top: 2%;
+  width: 75%;
+  height: auto;
+  margin-top: 4%;
+  padding-right: 2%;
+  padding-bottom: 5%;
 }
 
 .catalogButt {
-  width: 52%;
-  margin-top: 2%;
-  margin-left: 12.5%;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: -10%;
 }
 
 .moviesButt {
-  width: 52%;
-  margin-top: 2.5%;
+  width: 85%;
+  margin-top: 5%;
   margin-left: 5%;
 }
 
 .blogButt {
-  width: 52%;
-  margin-top: 3%;
-  margin-left: 0%;
+  width: 53.5%;
+  margin-top: 5%;
+  margin-left: 7.5%;
 }
 
 .theroutes {

@@ -29,26 +29,29 @@
 }
 
 .homeButt-m {
-  width: 52%;
-  margin-top: 2%;
+  width: 75%;
+  height: auto;
+  margin-top: 4%;
+  padding-right: 2%;
+  padding-bottom: 5%;
 }
 
 .catalogButt-m {
-  width: 52%;
-  margin-top: 2%;
-  margin-left: 15%;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: -10%;
 }
 
 .moviesButt-m {
-  width: 52.5%;
-  margin-top: 2%;
-  margin-left: 2%;
+  width: 85%;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .blogButt-m {
-  width: 52%;
-  margin-top: 2%;
-  margin-left: 5%;
+  width: 53.5%;
+  margin-top: 5%;
+  margin-left: 7.5%;
 }
 
 .theroutes-m {
@@ -63,5 +66,5 @@
   justify-content: space-evenly;
   align-content: center;
   padding-top: 5%;
-  padding-left: 5%;
+  padding-left: 1.5%;
 }

@@ -95,25 +95,25 @@ body {
 }
 
 .homeButt {
-  width: 50%;
+  width: 52%;
   margin-top: 2%;
 }
 
 .catalogButt {
-  width: 65%;
-  margin-top: 2.5%;
-  margin-left: -10%;
+  width: 52%;
+  margin-top: 2%;
+  margin-left: 12.5%;
 }
 
 .moviesButt {
-  width: 60%;
-  margin-top: 2%;
+  width: 52%;
+  margin-top: 2.5%;
   margin-left: 5%;
 }
 
 .blogButt {
-  width: 40%;
-  margin-top: 1.9%;
+  width: 52%;
+  margin-top: 3%;
   margin-left: 0%;
 }
 
